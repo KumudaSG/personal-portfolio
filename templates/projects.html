@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>My Projects</title>
 </head>
-<body>
+<body class = 'main-page'>
     <section>
         <h1> Projects</h1>
         <form>
             <fieldset>
                 <legend> Select which area of projects you want to see:</legend>
-                <label><input type = "checkbox"> Web Development</label>
-                <label> <input type = "checkbox"> Data Analysis</label>
-                <label> <input type = "checkbox"> Other </label>
+                <label><input type = "checkbox" id = "webdev" name = 'choosePrj' value = "webdev"> Web Development</label>
+                <label> <input type = "checkbox" id = "Dataanalysis" name = 'choosePrj' value = "Dataanalysis"> Data Analysis</label>
+                <label> <input type = "checkbox" id = "other" name = 'choosePrj' value = "other"> Other </label>
+            
             </fieldset>
-            <!--Adding a submit button for now but check 
-                how to make this in real time later-->
+            <!--Adding a submit button for now but check how to make this in real time later-->
             <button type = "submit"> Submit</button>
         </form>
     </section>
