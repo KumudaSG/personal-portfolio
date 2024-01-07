@@ -7,16 +7,39 @@
     <title>Kumuda S. </title>
 </head>
 <body class = 'main-page'>
-    <section>
-    <a href = './projects.html' class = 'main-links'>Projects</a>
-    <a href = 'https://docs.google.com/document/d/1ABnUpnj9TmQMuUPwW8k-n3pYoXtHnMvXSzZ-SrJj4FM/edit?usp=sharing' class = 'main-links'>Resume</a>
-    <a href = 'https://kumudasg.substack.com/' class = 'main-links'>Blog</a>
-    </section>
-    <hr/>
-    <h1>Hi, I'm Kumuda:)</h1>
-    <hr/>
-    <h4>Developer, Writer, Believer</h4>
-    <script src="./script.js"></script>
-    <!--Header, nav bar, main, footer-->
+    <header>
+        <!--I think this needs to be in a nav elem, not a section or both idk?-->
+        <section>
+            <nav>
+            <!--
+            <a href = './projects.html' class = 'main-links'>Projects</a>  Commented out till webpage will be done-->
+            <a href = 'https://docs.google.com/document/d/1ABnUpnj9TmQMuUPwW8k-n3pYoXtHnMvXSzZ-SrJj4FM/edit?usp=sharing' class = 'main-links'>Resume</a>
+            <a href = 'https://kumudasg.substack.com/' class = 'main-links'>Blog</a>
+            </nav>
+            <hr/>
+        </section>
+    </header>
+
+    <main>
+        <div id = 'mainbackvid-container'>
+            <video autoplay muted loop id="mainbackvid">
+                <source src="../static/home_page_bg.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id = "main-overlay">
+            <h1>Hi, I'm Kumuda:)</h1>
+            <hr/>
+            <h4>Developer, Writer, Believer</h4>
+            <div class = "logodiv">
+            <a href = "https://www.linkedin.com/in/kumuda-s/"><img src = "../static/linkedin-square-logo.png" class = "social-logos"> </a>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+        <!--Header(nav bar), main, footer-->
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
